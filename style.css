@@ -10,6 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: responsive, e-commerce, custom-menu, featured-images, footer, translation-ready, blog, custom-logo
 */
 
-header {
-  background-color: red;
+.brand {
+  background-color: green;
+}
+
+.second-column {
+  background-color: blue;
 }

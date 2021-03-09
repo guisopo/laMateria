@@ -9,6 +9,15 @@
  * @package Lamateria
  */
 
+$menu_args = array(
+  'theme_loaction'  => 'lamateria_main_menu',
+  'menu_id'         => 'menu-list',
+  'menu_class'      => 'menu-list',
+  'container'       => 'nav',
+  'container_class' => 'site__nav',
+  'container_id'    => 'site__nav',
+);
+
 ?>
 
 <!DOCTYPE html>
@@ -22,13 +31,28 @@
 
 <body <?php body_class($class); ?>>
   <div id="page" class="site">
+
     <header>
-      <section class="search">Search</section>
-      <section class="top-bar">
-        <div class="brand">Logo</div>
-        <div class="second-column">
-          <div class="account">Account</div>
-          <div class="main-menu">Menu</div>
+
+      <section class="search">
+        <div class="container">
+          Search:
         </div>
       </section>
+
+      <section class="top-bar">
+        <div class="container">
+          <div class="row">
+
+            <div class="brand col-3">Logo</div>
+
+            <div class="second-column col-9">
+              <div class="account">Account</div>
+              <div class="main-menu"><?php wp_nav_menu($menu_args); ?></div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </header>
