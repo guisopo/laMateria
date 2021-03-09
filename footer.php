@@ -15,6 +15,6 @@
       <section class="copyright">copyright</section>
     </footer>
   </div><!-- #page -->
-  
+  <?php wp_footer(); ?>
 </body>
 </html>
