@@ -28,8 +28,8 @@ add_action( 'wp_enqueue_scripts', 'lamateria_scripts' );
 function lamateria_config() {
   register_nav_menus(
     array(
-      'lamateria_main_menu' => 'Lamateria Main Menu',
-      'lamateria_footer_menu' => 'Lamateria Footer Menu',
+      'primary_menu' => __( 'Primary Menu', 'text_domain' ),
+      'footer_menu'  => __( 'Footer Menu', 'text_domain' ),
     )
   );
 }

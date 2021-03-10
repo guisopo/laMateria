@@ -9,13 +9,8 @@
  * @package Lamateria
  */
 
-$menu_args = array(
-  'theme_loaction'  => 'lamateria_main_menu',
-  'menu_id'         => 'menu-list',
-  'menu_class'      => 'menu-list',
-  'container'       => 'nav',
-  'container_class' => 'site__nav',
-  'container_id'    => 'site__nav',
+$header_menu_args = array(
+  'theme_location'  => 'primary_menu'
 );
 
 ?>
@@ -48,7 +43,7 @@ $menu_args = array(
 
             <div class="second-column col-9">
               <div class="account">Account</div>
-              <div class="main-menu"><?php wp_nav_menu($menu_args); ?></div>
+              <div class="main-menu"><?php wp_nav_menu($header_menu_args); ?></div>
             </div>
 
           </div>
