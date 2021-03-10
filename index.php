@@ -39,7 +39,26 @@
     </section>
     <section class="blog">
       <div class="container">
-        <div class="row">News</div>
+        <div class="row">
+          <?php 
+            // I there are any post
+            if( have_posts() ):
+              // Load them
+              while ( have_posts() ) : the_post();
+              ?>
+                <article>
+                  <h2><?php the_title(); ?></h2>
+                  <div><?php the_excerpt(); ?></div>
+                </article>
+              <?php
+              endwhile;
+            else:
+              ?>
+                <p>Nothing to display.</p>
+              <?php
+            endif;
+          ?>
+        </div>
       </div>
     </section>
   </main>
