@@ -56,3 +56,5 @@ function lamateria_config() {
 }
 
 add_action( 'after_setup_theme', 'lamateria_config', 0);
+
+require get_template_directory() . '/inc/wc-modifications.php';
