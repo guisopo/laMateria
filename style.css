@@ -176,7 +176,7 @@ display: block;
 }
 
 .main-menu .navbar-toggler-icon {
-  background-image: url('img/hamburger-menu.svg');
+  background-image: url('assets/img/hamburger-menu.svg');
 }
 
 .main-menu ul li .dropdown-menu .dropdown > a::after{
