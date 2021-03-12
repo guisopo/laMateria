@@ -41,7 +41,17 @@ $header_menu_args = array(
         <div class="container">
           <div class="row">
 
-            <div class="brand col-md-3 col-12 col-lg-12 text-center text-md-left">Logo</div>
+            <div class="brand col-md-3 col-12 col-lg-12 text-center text-md-left">
+              <a href="<?php echo home_url( '/' ); ?>">
+                <?php
+                  if( has_custom_logo() ) {
+                    the_custom_logo();
+                  } else {
+                    echo '<h1 class="site_title">'. bloginfo( 'title' ) .'</h1>';
+                  }
+                ?>
+              </a>
+            </div>
 
             <div class="second-column col-12 col-md-9 col-lg-10">
               <div class="row">
