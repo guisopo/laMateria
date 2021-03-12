@@ -9,6 +9,9 @@
  * @package Lamateria
  */
 
+require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+require_once get_template_directory() . '/inc/customizer.php';
+
 /**
  * Enqueue scripts and styles.
  *
@@ -27,7 +30,6 @@ add_action( 'wp_enqueue_scripts', 'lamateria_scripts' );
 
 
 function lamateria_config() {
-  require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 
   register_nav_menus(
     array(
