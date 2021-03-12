@@ -209,7 +209,7 @@ display: block;
 
 /* Search Form */
 .search-form button{
-  background-image: url('img/search.svg');
+  background-image: url('assets/img/search.svg');
   height: 23px;
   width: 23px;
   background-repeat: no-repeat;
