@@ -293,5 +293,5 @@ function lamateria_customizer( $wp_customize ) {
 add_action( 'customize_register', 'lamateria_customizer' );
 
 function lamateria_sanitize_checkbox( $checked ) {
-  return ( ( isset( $checked ) && $checked == true ) ? true : false; );
+  return ( ( isset( $checked ) && $checked == true ) ? true : false );
 }
