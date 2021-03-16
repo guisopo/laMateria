@@ -183,6 +183,79 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'url'
     )
   );
+
+ //*---------------------------------------
+  // Home Page Settings
+  $wp_customize->add_section(
+    'section_home_page', array(
+      'title'       => 'Home Page Products and Blog Settings',
+      'description' => 'Home Page Section'
+    )
+  );
+  // Field Popular Products Max Number
+  $wp_customize->add_setting(
+    'set_popular_max_num', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'absint',
+    )
+  );
+  $wp_customize->add_control(
+    'set_popular_max_num', array(
+      'label'       => 'Popular Products Max Number',
+      'description' => 'Popular Products Max Number',
+      'section'     => 'section_home_page',
+      'type'        => 'number'
+    )
+  );
+  // Field Popular Products Max Column
+  $wp_customize->add_setting(
+    'set_popular_max_col', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'absint',
+    )
+  );
+  $wp_customize->add_control(
+    'set_popular_max_col', array(
+      'label'       => 'Popular Products Max Columns',
+      'description' => 'Popular Products Max Columns',
+      'section'     => 'section_home_page',
+      'type'        => 'number'
+    )
+  );
+  // Field New Arrivals Max Number
+  $wp_customize->add_setting(
+    'set_new_arrivals_max_num', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'absint',
+    )
+  );
+  $wp_customize->add_control(
+    'set_new_arrivals_max_num', array(
+      'label'       => 'New Arrivals Max Number',
+      'description' => 'New Arrivals Max Number',
+      'section'     => 'section_home_page',
+      'type'        => 'number'
+    )
+  );
+  // Field New Arrivals Max Column
+  $wp_customize->add_setting(
+    'set_new_arrivals_max_col', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'absint',
+    )
+  );
+  $wp_customize->add_control(
+    'set_new_arrivals_max_col', array(
+      'label'       => 'New Arrivals Max Columns',
+      'description' => 'New Arrivals Max Columns',
+      'section'     => 'section_home_page',
+      'type'        => 'number'
+    )
+  );
 }
 
 add_action( 'customize_register', 'lamateria_customizer' );
