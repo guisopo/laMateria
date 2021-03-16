@@ -8,6 +8,7 @@ get_header();
 
 <div class="content-area">
   <main>
+
     <section class="slider">
       <div class="flexslider">
         <ul class="slides">
@@ -56,22 +57,27 @@ get_header();
         </ul>
       </div>
     </section>
+
     <section class="popular-products">
       <div class="container">
         <h2>Popular products</h2>
         <?php echo do_shortcode( '[products limit = "4" columns="4" orderby="popularity"]' ); ?>
       </div>
     </section>
+    
     <section class="popular-products">
       <div class="container">
-        <div class="row">New Arrivals</div>
+        <h2>New Arrivals</h2>
+        <?php echo do_shortcode( '[products limit = "4" columns="4" orderby="date"]' ); ?>
       </div>
     </section>
+
     <section class="deal-of-the-week">
       <div class="container">
         <div class="row">Deal of the week</div>
       </div>
     </section>
+
     <section class="blog">
       <div class="container">
         <div class="row">
