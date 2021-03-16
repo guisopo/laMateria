@@ -9,8 +9,21 @@ get_header();
 <div class="content-area">
   <main>
     <section class="slider">
-      <div class="container">
-        <div class="row">Slider</div>
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="slide1.jpg" />
+          </li>
+          <li>
+            <img src="slide2.jpg" />
+          </li>
+          <li>
+            <img src="slide3.jpg" />
+          </li>
+          <li>
+            <img src="slide4.jpg" />
+          </li>
+        </ul>
       </div>
     </section>
     <section class="popular-products">
