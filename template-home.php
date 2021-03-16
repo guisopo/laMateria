@@ -58,7 +58,8 @@ get_header();
     </section>
     <section class="popular-products">
       <div class="container">
-        <div class="row">Popular Products</div>
+        <h2>Popular products</h2>
+        <?php echo do_shortcode( '[products limit = "4" columns="4" orderby="popularity"]' ); ?>
       </div>
     </section>
     <section class="popular-products">
