@@ -256,6 +256,42 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
+  // Show deal of the week
+  $wp_customize->add_setting(
+    'set_deal_show', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'lamateria_sanitize_checkbox',
+    )
+  );
+  $wp_customize->add_control(
+    'set_deal_show', array(
+      'label'       => 'Show deal of the week?',
+      'section'     => 'section_home_page',
+      'type'        => 'checkbox'
+    )
+  );
+  // Deal of the Week
+  $wp_customize->add_setting(
+    'set_deal', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'absint',
+    )
+  );
+  $wp_customize->add_control(
+    'set_deal', array(
+      'label'       => 'Deal of the week',
+      'description' => 'Product ID to display',
+      'section'     => 'section_home_page',
+      'type'        => 'number'
+    )
+  );
+  
 }
 
 add_action( 'customize_register', 'lamateria_customizer' );
+
+function lamateria_sanitize_checkbox( $checked ) {
+  return ( ( isset( $checked ) && $checked == true ) ? true : false; );
+}

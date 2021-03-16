@@ -82,7 +82,15 @@ get_header();
 
     <section class="deal-of-the-week">
       <div class="container">
-        <div class="row">Deal of the week</div>
+      <h2>Deal of the week</h2>
+        <div class="row d-flex align-items-center">
+            <div class="deal-img col-md-6 col-12 ml-auto text-center">
+            
+            </div>
+            <div class="deal-desc col-md-6 col-12 mr-auto text-center">
+            
+            </div>
+        </div>
       </div>
     </section>
 
