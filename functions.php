@@ -68,7 +68,9 @@ function lamateria_config() {
     'flex_width'  => true
   ) );
 
-  if(!isset( $content_width ) ) {
+  add_image_size( 'lamateria-slider', 1980, 800, array( 'center', 'center') );
+
+  if(! isset( $content_width ) ) {
     $content_width = 600;
   }
 }
