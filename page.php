@@ -15,22 +15,20 @@
     <div class="container">
       <div class="row">
         <?php 
-          // I there are any post
-          if( have_posts() ):
-            // Load them
-            while ( have_posts() ) : the_post();
-            ?>
-              <article class="col">
-                <h1><?php the_title(); ?></h1>
-                <div><?php the_content(); ?></div>
-              </article>
-            <?php
-            endwhile;
-          else:
-            ?>
-              <p>Nothing to display.</p>
-            <?php
-          endif;
+          while ( have_posts() ) : the_post();
+        ?>
+            <article class="col">
+              <h1><?php the_title(); ?></h1>
+              <div><?php the_content(); ?></div>
+            </article>
+
+        <?php
+            // If comments are open or we have at least one comment, load up the comment template.
+            if( comments_open() || get_comments_number() ):
+              comments_template();
+            endif;
+
+          endwhile;
         ?>
       </div>
     </div>
