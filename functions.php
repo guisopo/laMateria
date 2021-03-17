@@ -67,8 +67,10 @@ function lamateria_config() {
     'flex_height' => true,
     'flex_width'  => true
   ) );
-
+  
+  add_theme_support( 'post-thumbnails' );
   add_image_size( 'lamateria-slider', 1980, 800, array( 'center', 'center') );
+  add_image_size( 'lamateria-blog', 960, 640, array( 'center', 'center') );
 
   if(! isset( $content_width ) ) {
     $content_width = 600;
