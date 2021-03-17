@@ -70,15 +70,19 @@ get_header();
 
       <section class="popular-products">
         <div class="container">
-          <h2>Popular products</h2>
-          <?php echo do_shortcode( '[products limit = " ' . $popular_limit . ' " columns=" ' . $popular_columns . ' " orderby="popularity"]' ); ?>
+          <div class="section-title">
+            <h2>Popular products</h2>
+            <?php echo do_shortcode( '[products limit = " ' . $popular_limit . ' " columns=" ' . $popular_columns . ' " orderby="popularity"]' ); ?>
+          </div>
         </div>
       </section>
       
       <section class="popular-products">
         <div class="container">
-          <h2>New Arrivals</h2>
-          <?php echo do_shortcode( '[products limit = " ' . $arrival_limit . ' " columns=" ' . $arrival_columns . ' " orderby="date"]' ); ?>
+          <div class="section-title">
+            <h2>New Arrivals</h2>
+            <?php echo do_shortcode( '[products limit = " ' . $arrival_limit . ' " columns=" ' . $arrival_columns . ' " orderby="date"]' ); ?>
+          </div>
         </div>
       </section>
 
@@ -95,7 +99,9 @@ get_header();
 
         <section class="deal-of-the-week">
           <div class="container">
-          <h2>Deal of the week</h2>
+            <div class="section-title">
+              <h2>Deal of the week</h2>
+            </div>
             <div class="row d-flex align-items-center">
                 <div class="deal-img col-md-6 col-12 ml-auto text-center">
                   <?php echo get_the_post_thumbnail( $deal, 'large', array( 'class' => 'img-fluid' ) ); ?>
@@ -139,6 +145,9 @@ get_header();
 
     <section class="blog">
       <div class="container">
+        <div class="section-title">
+          <h2><?php echo get_theme_mod( 'set_blog_title', 'News from our blog' ); ?></h2>
+        </div>
         <div class="row">
           <?php 
             // I there are any post

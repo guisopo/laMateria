@@ -192,7 +192,23 @@ function lamateria_customizer( $wp_customize ) {
       'description' => 'Home Page Section'
     )
   );
-  // Field Popular Products Max Number
+  // Field 1 - Popular products
+  $wp_customize->add_setting(
+    'set_popular_title', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'sanitize_text_field',
+    )
+  );
+  $wp_customize->add_control(
+    'set_popular_title', array(
+      'label'       => 'Popular products title',
+      'description' => 'Title of section to display',
+      'section'     => 'section_home_page',
+      'type'        => 'text'
+    )
+  );
+  // Field 2 - Popular Products Max Number
   $wp_customize->add_setting(
     'set_popular_max_num', array(
       'type'              => 'theme_mod',
@@ -208,7 +224,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
-  // Field Popular Products Max Column
+  // Field 3 - Popular Products Max Column
   $wp_customize->add_setting(
     'set_popular_max_col', array(
       'type'              => 'theme_mod',
@@ -224,7 +240,25 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
-  // Field New Arrivals Max Number
+
+  // Field 4 - Popular products
+  $wp_customize->add_setting(
+    'set_new_arrival_title', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'sanitize_text_field',
+    )
+  );
+  $wp_customize->add_control(
+    'set_new_arrival_title', array(
+      'label'       => 'New arrivals title',
+      'description' => 'Title of section to display',
+      'section'     => 'section_home_page',
+      'type'        => 'text'
+    )
+  );
+
+  // Field 4 - New Arrivals Max Number
   $wp_customize->add_setting(
     'set_new_arrivals_max_num', array(
       'type'              => 'theme_mod',
@@ -240,7 +274,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
-  // Field New Arrivals Max Column
+  // Field 5 - New Arrivals Max Column
   $wp_customize->add_setting(
     'set_new_arrivals_max_col', array(
       'type'              => 'theme_mod',
@@ -256,7 +290,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
-  // Show deal of the week
+  // Field 6 - Show deal of the week
   $wp_customize->add_setting(
     'set_deal_show', array(
       'type'              => 'theme_mod',
@@ -271,6 +305,24 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'checkbox'
     )
   );
+
+  // Field 1 - Deal of the week title
+  $wp_customize->add_setting(
+    'set_deal_title', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'sanitize_text_field',
+    )
+  );
+  $wp_customize->add_control(
+    'set_deal_title', array(
+      'label'       => 'Deal of the week title',
+      'description' => 'Title of section to display',
+      'section'     => 'section_home_page',
+      'type'        => 'text'
+    )
+  );
+      
   // Deal of the Week
   $wp_customize->add_setting(
     'set_deal', array(
@@ -287,7 +339,23 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'number'
     )
   );
-  
+
+  // Field 1 - Blog Section Title
+  $wp_customize->add_setting(
+    'set_blog_title', array(
+      'type'              => 'theme_mod',
+      'default'           => '',
+      'sanitize_callback' => 'sanitize_text_field',
+    )
+  );
+  $wp_customize->add_control(
+    'set_blog_title', array(
+      'label'       => 'Blog section title',
+      'description' => 'Title of section to display',
+      'section'     => 'section_home_page',
+      'type'        => 'text'
+    )
+  );
 }
 
 add_action( 'customize_register', 'lamateria_customizer' );
