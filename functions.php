@@ -79,8 +79,13 @@ function lamateria_config() {
 
 add_action( 'after_setup_theme', 'lamateria_config', 0);
 
-require get_template_directory() . '/inc/wc-modifications.php';
-
+/**
+ * If WooCommerce is active, we want to enqueue a file
+ * with a couple of template overrides
+ */
+if( class_exists( 'WooCommerce' )){
+	require get_template_directory() . '/inc/wc-modifications.php';
+}
 
 /**
  * Show cart contents / total Ajax
