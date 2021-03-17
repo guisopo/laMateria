@@ -71,7 +71,7 @@ get_header();
       <section class="popular-products">
         <div class="container">
           <div class="section-title">
-            <h2>Popular products</h2>
+          <h2><?php echo get_theme_mod( 'set_popular_title' ); ?></h2>
             <?php echo do_shortcode( '[products limit = " ' . $popular_limit . ' " columns=" ' . $popular_columns . ' " orderby="popularity"]' ); ?>
           </div>
         </div>
@@ -80,7 +80,7 @@ get_header();
       <section class="popular-products">
         <div class="container">
           <div class="section-title">
-            <h2>New Arrivals</h2>
+            <h2><?php echo get_theme_mod( 'set_new_arrivals_title' ); ?></h2>
             <?php echo do_shortcode( '[products limit = " ' . $arrival_limit . ' " columns=" ' . $arrival_columns . ' " orderby="date"]' ); ?>
           </div>
         </div>
@@ -100,7 +100,7 @@ get_header();
         <section class="deal-of-the-week">
           <div class="container">
             <div class="section-title">
-              <h2>Deal of the week</h2>
+              <h2><?php echo get_theme_mod( 'set_deal_title' ); ?></h2>
             </div>
             <div class="row d-flex align-items-center">
                 <div class="deal-img col-md-6 col-12 ml-auto text-center">
@@ -146,7 +146,7 @@ get_header();
     <section class="blog">
       <div class="container">
         <div class="section-title">
-          <h2><?php echo get_theme_mod( 'set_blog_title', 'News from our blog' ); ?></h2>
+          <h2><?php echo get_theme_mod( 'set_blog_title' ); ?></h2>
         </div>
         <div class="row">
           <?php 

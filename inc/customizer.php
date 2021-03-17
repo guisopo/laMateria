@@ -7,6 +7,7 @@
  */
 
 function lamateria_customizer( $wp_customize ) {
+  //*---------------------------------------
   // Copyright Section
   $wp_customize->add_section(
     'section_copyright', array(
@@ -87,7 +88,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'url'
     )
   );
-  // Field 1 - Slider Page Number 2
+  // Field 4 - Slider Page Number 2
   $wp_customize->add_setting(
     'set_slider_2', array(
       'type'              => 'theme_mod',
@@ -103,7 +104,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'dropdown-pages'
     )
   );
-  // Field 2 - Slider Button Text 2
+  // Field 5 - Slider Button Text 2
   $wp_customize->add_setting(
     'set_slider_button_text_2', array(
       'type'              => 'theme_mod',
@@ -119,7 +120,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'text'
     )
   );
-  // Field 3 - Slider Button Url 2
+  // Field 6 - Slider Button Url 2
   $wp_customize->add_setting(
     'set_slider_button_url_2', array(
       'type'              => 'theme_mod',
@@ -135,7 +136,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'url'
     )
   );
-  // Field 1 - Slider Page Number 3
+  // Field 7 - Slider Page Number 3
   $wp_customize->add_setting(
     'set_slider_3', array(
       'type'              => 'theme_mod',
@@ -151,7 +152,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'dropdown-pages'
     )
   );
-  // Field 2 - Slider Button Text 3
+  // Field 8 - Slider Button Text 3
   $wp_customize->add_setting(
     'set_slider_button_text_3', array(
       'type'              => 'theme_mod',
@@ -167,7 +168,7 @@ function lamateria_customizer( $wp_customize ) {
       'type'        => 'text'
     )
   );
-  // Field 3 - Slider Button Url 3
+  // Field 9 - Slider Button Url 3
   $wp_customize->add_setting(
     'set_slider_button_url_3', array(
       'type'              => 'theme_mod',
@@ -192,17 +193,17 @@ function lamateria_customizer( $wp_customize ) {
       'description' => 'Home Page Section'
     )
   );
-  // Field 1 - Popular products
+  // Field 1 - Popular products title
   $wp_customize->add_setting(
     'set_popular_title', array(
       'type'              => 'theme_mod',
-      'default'           => '',
+      'default'           => 'Popular products',
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
   $wp_customize->add_control(
     'set_popular_title', array(
-      'label'       => 'Popular products title',
+      'label'       => 'New arrivals title',
       'description' => 'Title of section to display',
       'section'     => 'section_home_page',
       'type'        => 'text'
@@ -241,16 +242,16 @@ function lamateria_customizer( $wp_customize ) {
     )
   );
 
-  // Field 4 - Popular products
+  // Field 4 - New arrivals products title
   $wp_customize->add_setting(
-    'set_new_arrival_title', array(
+    'set_new_arrivals_title', array(
       'type'              => 'theme_mod',
-      'default'           => '',
+      'default'           => 'New products',
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
   $wp_customize->add_control(
-    'set_new_arrival_title', array(
+    'set_new_arrivals_title', array(
       'label'       => 'New arrivals title',
       'description' => 'Title of section to display',
       'section'     => 'section_home_page',
@@ -310,7 +311,7 @@ function lamateria_customizer( $wp_customize ) {
   $wp_customize->add_setting(
     'set_deal_title', array(
       'type'              => 'theme_mod',
-      'default'           => '',
+      'default'           => 'Deal of the week',
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
@@ -344,7 +345,7 @@ function lamateria_customizer( $wp_customize ) {
   $wp_customize->add_setting(
     'set_blog_title', array(
       'type'              => 'theme_mod',
-      'default'           => '',
+      'default'           => 'News from our blog',
       'sanitize_callback' => 'sanitize_text_field',
     )
   );
