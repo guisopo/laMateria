@@ -19,27 +19,30 @@
   <main>
     <div class="container">
       <div class="row">
-        <?php 
-          // I there are any post
-          if( have_posts() ):
-            // Load them
-            while ( have_posts() ) : the_post();
-            
-              get_template_part( 'template-parts/content' );
+        <div class="col-lg-9 col-md-8 col-12">
+          <?php 
+            // I there are any post
+            if( have_posts() ):
+              // Load them
+              while ( have_posts() ) : the_post();
+              
+                get_template_part( 'template-parts/content' );
 
-            endwhile;
+              endwhile;
 
-            the_posts_pagination( array(
-              'prev_text' => 'Previous',
-              'next_text' => 'Next'
-            ) );
+              the_posts_pagination( array(
+                'prev_text' => 'Previous',
+                'next_text' => 'Next'
+              ) );
 
-          else:
-            ?>
-              <p>Nothing to display.</p>
-            <?php
-          endif;
-        ?>
+            else:
+              ?>
+                <p>Nothing to display.</p>
+              <?php
+            endif;
+          ?>
+        </div>
+        <?php get_sidebar(); ?>
       </div>
     </div>
   </main>
