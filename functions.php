@@ -69,8 +69,8 @@ function lamateria_config() {
   ) );
   
   add_theme_support( 'post-thumbnails' );
-  add_image_size( 'lamateria-slider', 1980, 800, array( 'center', 'center') );
-  add_image_size( 'lamateria-blog', 960, 640, array( 'center', 'center') );
+  add_image_size( 'lamateria-slider', 1980, 800, array( 'center', 'center' ) );
+  add_image_size( 'lamateria-blog', 960, 640, array( 'center', 'center' ) );
 
   if(! isset( $content_width ) ) {
     $content_width = 600;
@@ -104,4 +104,20 @@ function lamateria_woocommerce_header_add_to_cart_fragment( $fragments ) {
 	<?php
 	$fragments['span.items'] = ob_get_clean();
 	return $fragments;
+}
+
+add_action( 'widgets_init', 'lamateria_sidebar' );
+
+function lamateria_sidebar() {
+  $args = array(
+    'name'          => 'Lamateria Sidebar',
+    'id'            => 'lamateria-sidebar-1',
+    'description'   => 'Drag and drop your widgets here.',
+    'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'  => '</h4>'
+  );
+
+  register_sidebar($args);
 }
