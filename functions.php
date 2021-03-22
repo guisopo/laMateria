@@ -45,6 +45,10 @@ function lamateria_config() {
     )
   );
 
+  $text_domain = 'lamateria';
+  load_theme_textdomain( $text_domain, get_stylesheet_directory() . '/languages/' );
+  load_theme_textdomain( $text_domain, get_template_directory() . '/languages/' );
+
   add_theme_support( 'woocommerce', array(
     'thumbnail_image_width' => 255,
     'single_image_width'    => 255,
