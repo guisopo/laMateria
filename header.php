@@ -61,14 +61,14 @@ $header_menu_args = array(
                       <ul class="navbar-nav float-left">
                         <?php if( is_user_logged_in() ) : ?>
                           <li>
-                            <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ?>" class="nav-link"><?php __e( 'My account', 'lamateria' ); ?></a>
+                            <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ?>" class="nav-link"><?php _e( 'My account', 'lamateria' ); ?></a>
                           </li>
                           <li>
-                            <a href="<?php echo esc_url( wp_logout_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ) ?>" class="nav-link"><?php __e( 'Logout', 'lamateria' ); ?></a>
+                            <a href="<?php echo esc_url( wp_logout_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ) ?>" class="nav-link"><?php _e( 'Logout', 'lamateria' ); ?></a>
                           </li>
                         <?php else : ?>
                           <li>
-                            <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ?>" class="nav-link"><?php __e( 'Login / Register', 'lamateria' ); ?></a>
+                            <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id') ) ) ?>" class="nav-link"><?php _e( 'Login / Register', 'lamateria' ); ?></a>
                           </li>
                         <?php endif; ?>
                       </ul>
