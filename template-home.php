@@ -109,7 +109,7 @@ get_header();
                 <div class="deal-desc col-md-6 col-12 mr-auto text-center">
                   <?php if( !empty( $sale ) ) : ?>
                     <span class="discount">
-                      <?php echo $discount_percentage . __e( '% OFF' ); ?>
+                      <?php echo $discount_percentage . _e( '% OFF' ); ?>
                     </span>
                   <?php endif; ?>
                   <h3>
@@ -133,7 +133,7 @@ get_header();
                             ?>
                       </div>
                     <?php endif; ?>
-                    <a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php _e( ( 'Add to cart', 'lamateria' ); ?></a>
+                    <a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php _e( 'Add to cart', 'lamateria' ); ?></a>
                   </div>
                 </div>
             </div>
