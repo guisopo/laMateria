@@ -119,8 +119,8 @@ function lamateria_sidebar() {
     'after_title'  => '</h4>'
   );
 
-  $args_sidebar_2 = array(
-    'name'          => 'Lamateria Sidebar',
+  $args_sidebar_shop = array(
+    'name'          => 'Shop Sidebar',
     'id'            => 'lamateria-sidebar-shop',
     'description'   => 'Drag and drop your Woocommerce widgets here.',
     'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
@@ -129,6 +129,39 @@ function lamateria_sidebar() {
     'after_title'  => '</h4>'
   );
 
+  $args_sidebar_footer_1 = array(
+    'name'          => 'Footer Sidebar 1',
+    'id'            => 'lamateria-sidebar-footer-1',
+    'description'   => 'Drag and drop your widgets here.',
+    'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'  => '</h4>'
+  );
+
+  $args_sidebar_footer_2 = array(
+    'name'          => 'Footer Sidebar 2',
+    'id'            => 'lamateria-sidebar-footer-2',
+    'description'   => 'Drag and drop your widgets here.',
+    'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'  => '</h4>'
+  );
+
+  $args_sidebar_footer_3 = array(
+    'name'          => 'Footer Sidebar 3',
+    'id'            => 'lamateria-sidebar-footer-3',
+    'description'   => 'Drag and drop your widgets here.',
+    'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'  => '</h4>'
+  );
+
   register_sidebar($args_sidebar_1);
-  register_sidebar($args_sidebar_2);
+  register_sidebar($args_sidebar_shop);
+  register_sidebar($args_sidebar_footer_1);
+  register_sidebar($args_sidebar_footer_2);
+  register_sidebar($args_sidebar_footer_3);
 }

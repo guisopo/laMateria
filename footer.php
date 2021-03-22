@@ -16,7 +16,23 @@ $footer_menu_args = array(
     <footer>
       <section class="footer-widgets">
         <div class="container">
-          <div class="row">Footer Widets</div>
+          <div class="row">
+            <?php if( is_active_sidebar( 'lamateria-sidebar-footer-1' )) : ?> 
+              <div class="col-md-4 col-12"> 
+                <?php dynamic_sidebar( 'lamateria-sidebar-footer-1' ); ?> 
+              </div>
+            <?php endif; ?>
+            <?php if( is_active_sidebar( 'lamateria-sidebar-footer-2' )) : ?> 
+              <div class="col-md-4 col-22"> 
+                <?php dynamic_sidebar( 'lamateria-sidebar-footer-2' ); ?> 
+              </div>
+            <?php endif; ?>
+            <?php if( is_active_sidebar( 'lamateria-sidebar-footer-3' )) : ?> 
+              <div class="col-md-4 col-12"> 
+                <?php dynamic_sidebar( 'lamateria-sidebar-footer-3' ); ?> 
+              </div>
+            <?php endif; ?>
+          </div>
         </div>
       </section>
       <section class="copyright">
