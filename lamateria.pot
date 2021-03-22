@@ -1,0 +1,2581 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Lamateria v1.0.0\n"
+"POT-Creation-Date: "
+"2021-03-22 13:51+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: lamateria/404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: lamateria/404.php:19
+msgid ""
+"Unfortunately, the page "
+"you tried to reach does "
+"not exist on this site."
+msgstr ""
+
+#: lamateria/404.php:23
+msgid ""
+"Take a look to our "
+"latest posts."
+msgstr ""
+
+#: lamateria/archive.php:36
+#: lamateria/index.php:34
+#: lamateria/search.php:30
+#: twentynineteen/comments.php:95
+msgid "Previous"
+msgstr ""
+
+#: lamateria/archive.php:37
+#: lamateria/index.php:35
+#: lamateria/search.php:31
+#: twentynineteen/comments.php:96
+msgid "Next"
+msgstr ""
+
+#: lamateria/archive.php:42
+#: lamateria/index.php:40
+#: lamateria/template-home.php:185
+msgid "Nothing to display."
+msgstr ""
+
+#: lamateria/comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: lamateria/comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lamateria/comments.php:69
+#: twentynineteen/comments.php:116
+#: twentytwenty/comments.php:127
+#: twentytwentyone/comments.php:79
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: lamateria/footer.php:42
+msgid "Copyright "
+msgstr ""
+
+#: lamateria/functions.php:43
+msgid "Primary Menu"
+msgstr ""
+
+#: lamateria/functions.php:44
+#: twentynineteen/footer.php:37
+#: twentynineteen/functions.php:60
+#: twentytwenty/functions.php:265
+msgid "Footer Menu"
+msgstr ""
+
+#: lamateria/functions.php:117
+msgid "Lamateria Sidebar"
+msgstr ""
+
+#: lamateria/functions.php:119
+#: lamateria/functions.php:139
+#: lamateria/functions.php:149
+#: lamateria/functions.php:159
+msgid ""
+"Drag and drop your "
+"widgets here."
+msgstr ""
+
+#: lamateria/functions.php:127
+msgid "Shop Sidebar"
+msgstr ""
+
+#: lamateria/functions.php:129
+msgid ""
+"Drag and drop your "
+"Woocommerce widgets here."
+msgstr ""
+
+#: lamateria/functions.php:137
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: lamateria/functions.php:147
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: lamateria/functions.php:157
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: lamateria/header.php:85
+msgid "Toggle navigation"
+msgstr ""
+
+#: lamateria/inc/class-wp-bootstrap-navwalker.php:366
+msgid "Add a menu"
+msgstr ""
+
+#: lamateria/inc/customizer.php:14
+msgid "Copyright Setting"
+msgstr ""
+
+#: lamateria/inc/customizer.php:15
+msgid "Copyright Section"
+msgstr ""
+
+#: lamateria/inc/customizer.php:29
+msgid "Copyright"
+msgstr ""
+
+#: lamateria/inc/customizer.php:30
+msgid ""
+"Please, add your "
+"copyright information "
+"here"
+msgstr ""
+
+#: lamateria/inc/customizer.php:39
+msgid "Slider Settings"
+msgstr ""
+
+#: lamateria/inc/customizer.php:40
+msgid "Slider Section"
+msgstr ""
+
+#: lamateria/inc/customizer.php:53
+#: lamateria/inc/customizer.php:54
+msgid "Set slider 1"
+msgstr ""
+
+#: lamateria/inc/customizer.php:69
+#: lamateria/inc/customizer.php:70
+msgid ""
+"Button text for slider 1"
+msgstr ""
+
+#: lamateria/inc/customizer.php:85
+#: lamateria/inc/customizer.php:86
+msgid ""
+"URL text for slider 1"
+msgstr ""
+
+#: lamateria/inc/customizer.php:101
+#: lamateria/inc/customizer.php:102
+msgid "Set slider 2"
+msgstr ""
+
+#: lamateria/inc/customizer.php:117
+#: lamateria/inc/customizer.php:118
+msgid ""
+"Button text for slider 2"
+msgstr ""
+
+#: lamateria/inc/customizer.php:133
+#: lamateria/inc/customizer.php:134
+msgid ""
+"URL text for slider 2"
+msgstr ""
+
+#: lamateria/inc/customizer.php:149
+#: lamateria/inc/customizer.php:150
+msgid "Set slider 3"
+msgstr ""
+
+#: lamateria/inc/customizer.php:165
+#: lamateria/inc/customizer.php:166
+msgid ""
+"Button text for slider 3"
+msgstr ""
+
+#: lamateria/inc/customizer.php:181
+#: lamateria/inc/customizer.php:182
+msgid ""
+"URL text for slider 3"
+msgstr ""
+
+#: lamateria/inc/customizer.php:192
+msgid ""
+"Home Page Products and "
+"Blog Settings"
+msgstr ""
+
+#: lamateria/inc/customizer.php:193
+msgid "Home Page Section"
+msgstr ""
+
+#: lamateria/inc/customizer.php:200
+msgid "Popular products"
+msgstr ""
+
+#: lamateria/inc/customizer.php:206
+#: lamateria/inc/customizer.php:255
+msgid "New arrivals title"
+msgstr ""
+
+#: lamateria/inc/customizer.php:207
+#: lamateria/inc/customizer.php:256
+#: lamateria/inc/customizer.php:321
+#: lamateria/inc/customizer.php:355
+msgid ""
+"Title of section to "
+"display"
+msgstr ""
+
+#: lamateria/inc/customizer.php:222
+#: lamateria/inc/customizer.php:223
+msgid ""
+"Popular Products Max "
+"Number"
+msgstr ""
+
+#: lamateria/inc/customizer.php:238
+#: lamateria/inc/customizer.php:239
+msgid ""
+"Popular Products Max "
+"Columns"
+msgstr ""
+
+#: lamateria/inc/customizer.php:249
+msgid "New products"
+msgstr ""
+
+#: lamateria/inc/customizer.php:272
+#: lamateria/inc/customizer.php:273
+msgid ""
+"New Arrivals Max Number"
+msgstr ""
+
+#: lamateria/inc/customizer.php:288
+#: lamateria/inc/customizer.php:289
+msgid ""
+"New Arrivals Max Columns"
+msgstr ""
+
+#: lamateria/inc/customizer.php:304
+msgid ""
+"Show deal of the week?"
+msgstr ""
+
+#: lamateria/inc/customizer.php:305
+msgid "section_home_page"
+msgstr ""
+
+#: lamateria/inc/customizer.php:314
+#: lamateria/inc/customizer.php:337
+msgid "Deal of the week"
+msgstr ""
+
+#: lamateria/inc/customizer.php:320
+msgid ""
+"Deal of the week title"
+msgstr ""
+
+#: lamateria/inc/customizer.php:338
+msgid ""
+"Product ID to display"
+msgstr ""
+
+#: lamateria/inc/customizer.php:348
+msgid "News from our blog"
+msgstr ""
+
+#: lamateria/inc/customizer.php:354
+msgid "Blog section title"
+msgstr ""
+
+#: lamateria/search.php:17
+msgid "Search results for"
+msgstr ""
+
+#: lamateria/search.php:36
+msgid ""
+"There are no results for "
+"your query."
+msgstr ""
+
+#: lamateria/searchform.php:10
+#: twentytwenty/searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: lamateria/searchform.php:11
+#: twentytwenty/searchform.php:27
+#: twentytwentyone/searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: lamateria/template-parts/content-single.php:15
+msgid "Published by"
+msgstr ""
+
+#: lamateria/template-parts/content-single.php:15
+msgid "on"
+msgstr ""
+
+#: lamateria/template-parts/content-single.php:18
+#: twentytwenty/inc/template-tags.php:392
+#: twentytwenty/template-parts/content-cover.php:70
+#: twentytwenty/template-parts/entry-header.php:36
+msgid "Categories"
+msgstr ""
+
+#: lamateria/template-parts/content-single.php:22
+#: twentytwenty/inc/template-tags.php:410
+msgid "Tags"
+msgstr ""
+
+#: lamateria/template-parts/content-single.php:38
+msgid "Pages"
+msgstr ""
+
+#: twentynineteen/404.php:20
+msgid ""
+"Oops! That page "
+"can&rsquo;t be found."
+msgstr ""
+
+#: twentynineteen/404.php:24
+#: twentytwentyone/404.php:21
+msgid ""
+"It looks like nothing "
+"was found at this "
+"location. Maybe try a "
+"search?"
+msgstr ""
+
+#: twentynineteen/classes/class-twentynineteen-walker-comment.php:59
+#, php-format
+msgid ""
+"%s <span class=\"screen-"
+"reader-text says\">says:"
+"</span>"
+msgstr ""
+
+#: twentynineteen/classes/class-twentynineteen-walker-comment.php:78
+#: twentytwenty/classes/class-twentytwenty-walker-comment.php:68
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: twentynineteen/classes/class-twentynineteen-walker-comment.php:89
+#: twentytwenty/classes/class-twentytwenty-walker-comment.php:82
+msgid "Edit"
+msgstr ""
+
+#: twentynineteen/classes/class-twentynineteen-walker-comment.php:96
+#: twentytwenty/classes/class-twentytwenty-walker-comment.php:98
+msgid ""
+"Your comment is awaiting "
+"moderation."
+msgstr ""
+
+#: twentynineteen/classes/class-twentynineteen-walker-comment.php:98
+msgid ""
+"Your comment is awaiting "
+"moderation. This is a "
+"preview; your comment "
+"will be visible after it "
+"has been approved."
+msgstr ""
+
+#: twentynineteen/comments.php:33
+msgid ""
+"Join the Conversation"
+msgstr ""
+
+#: twentynineteen/comments.php:35
+#: twentynineteen/comments.php:105
+#: twentynineteen/comments.php:107
+#: twentytwenty/comments.php:34
+#: twentytwentyone/comments.php:87
+msgid "Leave a comment"
+msgstr ""
+
+#: twentynineteen/comments.php:40
+#: twentytwenty/comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One reply on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: twentynineteen/comments.php:45
+#: twentytwenty/comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s reply on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s replies on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: twentynineteen/comments.php:92
+#: twentynineteen/comments.php:95
+#: twentynineteen/comments.php:96
+#: twentytwenty/comments.php:88
+msgid "Comments"
+msgstr ""
+
+#: twentynineteen/footer.php:25
+#: twentytwenty/footer.php:32
+#: twentytwentyone/footer.php:61
+msgid ""
+"https://wordpress.org/"
+msgstr ""
+
+#: twentynineteen/footer.php:28
+#: twentytwentyone/footer.php:60
+#, php-format
+msgid ""
+"Proudly powered by %s."
+msgstr ""
+
+#: twentynineteen/functions.php:59
+#: twentytwenty/inc/starter-content.php:177
+#: twentytwenty/inc/starter-content.php:187
+msgid "Primary"
+msgstr ""
+
+#: twentynineteen/functions.php:61
+#: twentynineteen/template-parts/header/site-branding.php:46
+#: twentytwenty/inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr ""
+
+#: twentynineteen/functions.php:118
+#: twentytwentyone/functions.php:156
+msgid "Small"
+msgstr ""
+
+#: twentynineteen/functions.php:119
+msgid "S"
+msgstr ""
+
+#: twentynineteen/functions.php:124
+#: twentytwentyone/functions.php:162
+msgid "Normal"
+msgstr ""
+
+#: twentynineteen/functions.php:125
+msgid "M"
+msgstr ""
+
+#: twentynineteen/functions.php:130
+#: twentytwentyone/functions.php:168
+msgid "Large"
+msgstr ""
+
+#: twentynineteen/functions.php:131
+msgid "L"
+msgstr ""
+
+#: twentynineteen/functions.php:136
+#: twentytwentyone/functions.php:180
+msgid "Huge"
+msgstr ""
+
+#: twentynineteen/functions.php:137
+msgid "XL"
+msgstr ""
+
+#: twentynineteen/functions.php:149
+#: twentytwentyone/functions.php:238
+msgid "Blue"
+msgstr ""
+
+#: twentynineteen/functions.php:154
+msgid "Dark Blue"
+msgstr ""
+
+#: twentynineteen/functions.php:159
+msgid "Dark Gray"
+msgstr ""
+
+#: twentynineteen/functions.php:164
+msgid "Light Gray"
+msgstr ""
+
+#: twentynineteen/functions.php:169
+#: twentytwentyone/functions.php:263
+msgid "White"
+msgstr ""
+
+#: twentynineteen/functions.php:194
+#: twentynineteen/template-parts/footer/footer-widgets.php:12
+#: twentytwenty/template-parts/footer-menus-widgets.php:37
+#: twentytwentyone/functions.php:358
+msgid "Footer"
+msgstr ""
+
+#: twentynineteen/functions.php:196
+#: twentytwentyone/functions.php:360
+msgid ""
+"Add widgets here to "
+"appear in your footer."
+msgstr ""
+
+#: twentynineteen/header.php:25
+#: twentytwentyone/header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: twentynineteen/image.php:52
+#: twentynineteen/template-parts/content/content-page.php:27
+#: twentynineteen/template-parts/content/content-single.php:40
+#: twentynineteen/template-parts/content/content.php:49
+#: twentytwenty/template-parts/content-cover.php:138
+#: twentytwenty/template-parts/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: twentynineteen/image.php:56
+#: twentytwenty/template-parts/content-cover.php:138
+#: twentytwenty/template-parts/content.php:48
+#: twentytwentyone/comments.php:62
+#: twentytwentyone/image.php:43
+#: twentytwentyone/inc/template-tags.php:228
+#: twentytwentyone/template-parts/content/content-page.php:33
+#: twentytwentyone/template-parts/content/content-single.php:27
+#: twentytwentyone/template-parts/content/content.php:33
+msgid "Page"
+msgstr ""
+
+#: twentynineteen/image.php:70
+#: twentytwentyone/image.php:81
+msgctxt ""
+"Used before full size "
+"attachment link."
+msgid "Full size"
+msgstr ""
+
+#: twentynineteen/image.php:87
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav"
+"\">Published in</"
+"span><br><span class="
+"\"post-title\">%title</"
+"span>"
+msgstr ""
+
+#: twentynineteen/inc/back-compat.php:40
+#: twentynineteen/inc/back-compat.php:55
+#: twentynineteen/inc/back-compat.php:76
+#, php-format
+msgid ""
+"Twenty Nineteen requires "
+"at least WordPress "
+"version 4.7. You are "
+"running version %s. "
+"Please upgrade and try "
+"again."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:20
+msgid "Twenty Nineteen"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:33
+msgid "About"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:39
+msgid ""
+"Advocating for "
+"Businesses and "
+"Entrepreneurs since 2014"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:42
+msgid ""
+"Eva Young Consulting was "
+"founded in 2014 to meet "
+"the needs of small "
+"businesses in the San "
+"Francisco Bay Area. We "
+"help startups define a "
+"clear brand identity and "
+"digital strategy that "
+"will carry them through "
+"their financing rounds "
+"and scale as their "
+"business grows. Discover "
+"how we can boost your "
+"brand with a unique and "
+"powerful digital "
+"marketing strategy."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:46
+msgid "Learn More"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:58
+#: twentynineteen/inc/block-patterns.php:64
+msgid "Get In Touch"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:69
+msgid "20 Cooper Avenue"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:69
+msgid ""
+"New York, New York 10023"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:74
+msgid "(555) 555-5555"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:74
+#: twentytwentyone/inc/block-patterns.php:48
+msgid "example@example.com"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:80
+msgid "Contact Us"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:92
+#: twentynineteen/inc/block-patterns.php:98
+msgid "Services"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:103
+#: twentynineteen/inc/block-patterns.php:108
+#: twentynineteen/inc/block-patterns.php:113
+#: twentynineteen/inc/block-patterns.php:120
+#: twentynineteen/inc/block-patterns.php:125
+#: twentynineteen/inc/block-patterns.php:130
+#: twentynineteen/inc/block-patterns.php:155
+#: twentynineteen/inc/block-patterns.php:163
+msgid "Gradient"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:104
+msgid "Website Design"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:109
+msgid "Mobile"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:114
+msgid "Social Media"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:121
+msgid "Marketing"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:126
+msgid "Copywriting"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:131
+msgid "Content Strategy"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:145
+#: twentynineteen/inc/block-patterns.php:152
+msgid "Team"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:156
+msgid "Eva Young"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:159
+msgid ""
+"Eva Young grew up "
+"working alongside her "
+"parents at their "
+"restaurant in Queens, "
+"NY. She opened Eva Young "
+"Consulting in 2014 to "
+"help small businesses "
+"like her parents’ "
+"restaurant adapt to the "
+"digital age."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:164
+msgid "Doug Watson"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:167
+msgid ""
+"Oddly enough, Doug "
+"Watson also grew up "
+"working alongside his "
+"parents at a family-"
+"owned restaurant in "
+"Queens, NY. He &nbsp;"
+"worked on digital "
+"campaigns for Fortune "
+"500 Companies before "
+"joining Eva Green "
+"Consulting."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:179
+#: twentynineteen/inc/block-patterns.php:186
+msgid "What We Do"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:189
+msgid "Redefine brands"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:189
+msgid ""
+"We help startups define "
+"(or refine) a clear "
+"brand identity."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:192
+msgid ""
+"Activate new customers"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:192
+msgid ""
+"We help businesses grow."
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:195
+msgid ""
+"Spark interest on social "
+"media"
+msgstr ""
+
+#: twentynineteen/inc/block-patterns.php:195
+msgid ""
+"We help companies "
+"communicate with their "
+"customers."
+msgstr ""
+
+#: twentynineteen/inc/customizer.php:53
+#: twentytwenty/classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr ""
+
+#: twentynineteen/inc/customizer.php:55
+msgctxt "primary color"
+msgid "Default"
+msgstr ""
+
+#: twentynineteen/inc/customizer.php:56
+msgctxt "primary color"
+msgid "Custom"
+msgstr ""
+
+#: twentynineteen/inc/customizer.php:78
+msgid ""
+"Apply a custom color for "
+"buttons, links, featured "
+"images, etc."
+msgstr ""
+
+#: twentynineteen/inc/customizer.php:98
+msgid ""
+"Apply a filter to "
+"featured images using "
+"the primary color"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:80
+msgctxt ""
+"yearly archives date "
+"format"
+msgid "Y"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:82
+msgctxt ""
+"monthly archives date "
+"format"
+msgid "F Y"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:86
+msgid ""
+"Post Type Archives: "
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:90
+#, php-format
+msgid "%s Archives:"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:92
+msgid "Archives:"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:136
+msgid "More"
+msgstr ""
+
+#: twentynineteen/inc/template-functions.php:143
+msgid "Back"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:46
+msgid "Posted by"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:63
+#, php-format
+msgid ""
+"Leave a comment<span "
+"class=\"screen-reader-"
+"text\"> on %s</span>"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:86
+#: twentynineteen/inc/template-tags.php:98
+#: twentytwentyone/inc/template-tags.php:104
+#: twentytwentyone/inc/template-tags.php:114
+#: twentytwentyone/inc/template-tags.php:148
+#: twentytwentyone/inc/template-tags.php:158
+msgid ", "
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:92
+msgid "Posted in"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:104
+msgid "Tags:"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:120
+#: twentynineteen/template-parts/content/content-page.php:41
+#: twentynineteen/template-parts/header/entry-header.php:32
+#: twentytwenty/inc/template-tags.php:207
+#, php-format
+msgid ""
+"Edit <span class="
+"\"screen-reader-text\">"
+"%s</span>"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:230
+msgid "Newer posts"
+msgstr ""
+
+#: twentynineteen/inc/template-tags.php:234
+msgid "Older posts"
+msgstr ""
+
+#: twentynineteen/search.php:22
+msgid ""
+"Search results for: "
+msgstr ""
+
+#: twentynineteen/single.php:31
+#: twentytwentyone/single.php:25
+#, php-format
+msgid ""
+"<span class=\"meta-nav"
+"\">Published in</"
+"span><span class=\"post-"
+"title\">%s</span>"
+msgstr ""
+
+#: twentynineteen/single.php:38
+msgid "Next Post"
+msgstr ""
+
+#: twentynineteen/single.php:39
+msgid "Next post:"
+msgstr ""
+
+#: twentynineteen/single.php:41
+msgid "Previous Post"
+msgstr ""
+
+#: twentynineteen/single.php:42
+msgid "Previous post:"
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-excerpt.php:18
+#: twentynineteen/template-parts/content/content.php:18
+msgctxt "post"
+msgid "Featured"
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-none.php:16
+#: twentytwenty/index.php:51
+msgid "Nothing Found"
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-none.php:26
+#: twentytwentyone/template-parts/content/content-none.php:43
+#, php-format
+msgid ""
+"Ready to publish your "
+"first post? <a href="
+"\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-none.php:39
+#: twentytwentyone/template-parts/content/content-none.php:56
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-none.php:46
+#: twentytwentyone/template-parts/content/content-none.php:61
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: twentynineteen/template-parts/content/content-single.php:27
+#: twentynineteen/template-parts/content/content.php:36
+#, php-format
+msgid ""
+"Continue reading<span "
+"class=\"screen-reader-"
+"text\"> \"%s\"</span>"
+msgstr ""
+
+#: twentynineteen/template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr ""
+
+#: twentynineteen/template-parts/post/author-bio.php:17
+#, php-format
+msgid "Published by %s"
+msgstr ""
+
+#: twentynineteen/template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr ""
+
+#: twentynineteen/template-parts/post/discussion-meta.php:16
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: twentynineteen/template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr ""
+
+#: twentytwenty/404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: twentytwenty/404.php:19
+msgid ""
+"The page you were "
+"looking for could not be "
+"found. It might have "
+"been removed, renamed, "
+"or did not exist in the "
+"first place."
+msgstr ""
+
+#: twentytwenty/404.php:24
+msgid "404 not found"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:82
+msgid ""
+"Scales the logo to half "
+"its uploaded size, "
+"making it sharp on high-"
+"res screens."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:101
+msgid ""
+"Header &amp; Footer "
+"Background Color"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:125
+msgctxt "color"
+msgid "Default"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:126
+msgctxt "color"
+msgid "Custom"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:183
+msgid ""
+"Apply a custom color for "
+"links, buttons, featured "
+"images."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:225
+msgid ""
+"Show search in header"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:267
+msgid ""
+"On archive pages, posts "
+"show:"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:269
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:114
+msgid "Full text"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:270
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:113
+msgid "Summary"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:281
+msgid "Cover Template"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:283
+msgid ""
+"Settings for the \"Cover "
+"Template\" page "
+"template. Add a featured "
+"image to use as "
+"background."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:305
+msgid ""
+"Fixed Background Image"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:306
+msgid ""
+"Creates a parallax "
+"effect when the visitor "
+"scrolls."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:352
+msgid ""
+"Overlay Background Color"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:353
+msgid ""
+"The color used for the "
+"overlay. Defaults to the "
+"accent color."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:374
+msgid "Overlay Text Color"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:375
+msgid ""
+"The color used for the "
+"text in the overlay."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-customize.php:396
+msgid ""
+"Make sure that the "
+"contrast is high enough "
+"so that the text is "
+"readable."
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-walker-comment.php:133
+msgid "By Post Author"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-walker-page.php:70
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: twentytwenty/classes/class-twentytwenty-walker-page.php:107
+#: twentytwenty/inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr ""
+
+#: twentytwenty/comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: twentytwenty/comments.php:75
+msgid "Older Comments"
+msgstr ""
+
+#: twentytwenty/footer.php:25
+msgctxt ""
+"copyright date format"
+msgid "Y"
+msgstr ""
+
+#: twentytwenty/footer.php:33
+msgid ""
+"Powered by WordPress"
+msgstr ""
+
+#: twentytwenty/footer.php:43
+#, php-format
+msgid "To the top %s"
+msgstr ""
+
+#: twentytwenty/footer.php:49
+#, php-format
+msgid "Up %s"
+msgstr ""
+
+#: twentytwenty/functions.php:262
+msgid ""
+"Desktop Horizontal Menu"
+msgstr ""
+
+#: twentytwenty/functions.php:263
+msgid ""
+"Desktop Expanded Menu"
+msgstr ""
+
+#: twentytwenty/functions.php:264
+msgid "Mobile Menu"
+msgstr ""
+
+#: twentytwenty/functions.php:266
+msgid "Social Menu"
+msgstr ""
+
+#: twentytwenty/functions.php:344
+msgid "Skip to the content"
+msgstr ""
+
+#: twentytwenty/functions.php:369
+msgid "Footer #1"
+msgstr ""
+
+#: twentytwenty/functions.php:371
+msgid ""
+"Widgets in this area "
+"will be displayed in the "
+"first column in the "
+"footer."
+msgstr ""
+
+#: twentytwenty/functions.php:381
+msgid "Footer #2"
+msgstr ""
+
+#: twentytwenty/functions.php:383
+msgid ""
+"Widgets in this area "
+"will be displayed in the "
+"second column in the "
+"footer."
+msgstr ""
+
+#: twentytwenty/functions.php:488
+msgid "Accent Color"
+msgstr ""
+
+#: twentytwenty/functions.php:493
+msgctxt "color"
+msgid "Primary"
+msgstr ""
+
+#: twentytwenty/functions.php:498
+msgctxt "color"
+msgid "Secondary"
+msgstr ""
+
+#: twentytwenty/functions.php:503
+msgid "Subtle Background"
+msgstr ""
+
+#: twentytwenty/functions.php:516
+msgid "Background Color"
+msgstr ""
+
+#: twentytwenty/functions.php:531
+msgctxt ""
+"Name of the small font "
+"size in the block editor"
+msgid "Small"
+msgstr ""
+
+#: twentytwenty/functions.php:532
+msgctxt ""
+"Short name of the small "
+"font size in the block "
+"editor."
+msgid "S"
+msgstr ""
+
+#: twentytwenty/functions.php:537
+msgctxt ""
+"Name of the regular font "
+"size in the block editor"
+msgid "Regular"
+msgstr ""
+
+#: twentytwenty/functions.php:538
+msgctxt ""
+"Short name of the "
+"regular font size in the "
+"block editor."
+msgid "M"
+msgstr ""
+
+#: twentytwenty/functions.php:543
+msgctxt ""
+"Name of the large font "
+"size in the block editor"
+msgid "Large"
+msgstr ""
+
+#: twentytwenty/functions.php:544
+msgctxt ""
+"Short name of the large "
+"font size in the block "
+"editor."
+msgid "L"
+msgstr ""
+
+#: twentytwenty/functions.php:549
+msgctxt ""
+"Name of the larger font "
+"size in the block editor"
+msgid "Larger"
+msgstr ""
+
+#: twentytwenty/functions.php:550
+msgctxt ""
+"Short name of the larger "
+"font size in the block "
+"editor."
+msgid "XL"
+msgstr ""
+
+#: twentytwenty/header.php:53
+#: twentytwenty/header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr ""
+
+#: twentytwenty/header.php:76
+#: twentytwenty/header.php:137
+#: twentytwentyone/template-parts/header/site-nav.php:16
+msgid "Menu"
+msgstr ""
+
+#: twentytwenty/header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:42
+msgid ""
+"Support the Museum and "
+"Get Exclusive Offers"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:45
+#: twentytwenty/inc/starter-content.php:148
+msgid ""
+"Members get access to "
+"exclusive exhibits and "
+"sales. Our memberships "
+"cost $99.99 and are "
+"billed annually."
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:61
+msgid ""
+"Double Call to Action"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:71
+msgid "The Museum"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:74
+msgid ""
+"Award-winning "
+"exhibitions featuring "
+"internationally-renowned "
+"artists."
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:78
+#: twentytwenty/inc/block-patterns.php:160
+#: twentytwenty/inc/block-patterns.php:174
+#: twentytwenty/inc/starter-content.php:73
+#: twentytwenty/inc/starter-content.php:88
+#: twentytwenty/inc/starter-content.php:105
+#: twentytwenty/inc/starter-content.php:120
+msgid "Read More"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:86
+msgid "The Store"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:89
+msgid ""
+"An awe-inspiring "
+"collection of books, "
+"prints, and gifts from "
+"our exhibitions."
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:108
+msgid "Event Details"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:118
+msgid ""
+"<em>Dates</em><br>Aug 1 "
+"— Dec 1"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:123
+msgid ""
+"<em>Location</"
+"em><br>Exhibit Hall B"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:128
+msgid ""
+"<em>Price</"
+"em><br>Included"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:151
+#: twentytwenty/inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:154
+#: twentytwenty/inc/starter-content.php:67
+msgid "Works and Days"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:157
+#: twentytwenty/inc/block-patterns.php:171
+msgid ""
+"August 1 — December 1"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:168
+#: twentytwenty/inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:187
+msgid "Introduction"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:194
+msgid ""
+"The Premier Destination "
+"for Modern Art in Sweden"
+msgstr ""
+
+#: twentytwenty/inc/block-patterns.php:197
+msgid ""
+"With seven floors of "
+"striking architecture, "
+"UMoMA shows exhibitions "
+"of international "
+"contemporary art, "
+"sometimes along with art "
+"historical "
+"retrospectives. "
+"Existential, political, "
+"and philosophical issues "
+"are intrinsic to our "
+"program. As visitor, you "
+"are invited to guided "
+"tours artist talks, "
+"lectures, film "
+"screenings, and other "
+"events with free "
+"admission."
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:39
+msgctxt ""
+"Theme starter content"
+msgid ""
+"The New UMoMA Opens its "
+"Doors"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:48
+msgid ""
+"The New UMoMA Opens its "
+"Doors"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:56
+msgid ""
+"The premier destination "
+"for modern art in "
+"Northern Sweden. Open "
+"from 10 AM to 6 PM every "
+"day during the summer "
+"months."
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:70
+#: twentytwenty/inc/starter-content.php:102
+msgid ""
+"August 1 -- December 1"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:82
+msgid ""
+"Theatre of Operations"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:85
+#: twentytwenty/inc/starter-content.php:117
+msgid ""
+"October 1 -- December 1"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:114
+msgid ""
+"From Signac to Matisse"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:130
+msgid ""
+"&#8220;Cyborgs, as the "
+"philosopher Donna "
+"Haraway established, are "
+"not reverent. They do "
+"not remember the cosmos."
+"&#8221;"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:134
+msgid ""
+"With seven floors of "
+"striking architecture, "
+"UMoMA shows exhibitions "
+"of international "
+"contemporary art, "
+"sometimes along with art "
+"historical "
+"retrospectives. "
+"Existential, political "
+"and philosophical issues "
+"are intrinsic to our "
+"programme. As visitor "
+"you are invited to "
+"guided tours artist "
+"talks, lectures, film "
+"screenings and other "
+"events with free "
+"admission"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:137
+msgid ""
+"The exhibitions are "
+"produced by UMoMA in "
+"collaboration with "
+"artists and museums "
+"around the world and "
+"they often attract "
+"international attention. "
+"UMoMA has received a "
+"Special Commendation "
+"from the European Museum "
+"of the Year, and was "
+"among the top candidates "
+"for the Swedish Museum "
+"of the Year Award as "
+"well as for the Council "
+"of Europe Museum Prize."
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:145
+msgid ""
+"Become a Member and Get "
+"Exclusive Offers!"
+msgstr ""
+
+#: twentytwenty/inc/starter-content.php:151
+msgid "Join the Club"
+msgstr ""
+
+#: twentytwenty/inc/template-tags.php:350
+msgid "Post author"
+msgstr ""
+
+#: twentytwenty/inc/template-tags.php:357
+#: twentytwenty/template-parts/entry-author-bio.php:20
+#: twentytwentyone/inc/template-tags.php:49
+#: twentytwentyone/template-parts/post/author-bio.php:15
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: twentytwenty/inc/template-tags.php:374
+msgid "Post date"
+msgstr ""
+
+#: twentytwenty/inc/template-tags.php:396
+msgctxt ""
+"A string that is output "
+"before one or more "
+"categories"
+msgid "In"
+msgstr ""
+
+#: twentytwenty/inc/template-tags.php:448
+msgid "Sticky post"
+msgstr ""
+
+#: twentytwenty/index.php:32
+msgid "Search:"
+msgstr ""
+
+#: twentytwenty/index.php:40
+#, php-format
+msgid ""
+"We found %s result for "
+"your search."
+msgid_plural ""
+"We found %s results for "
+"your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: twentytwenty/index.php:48
+msgid ""
+"We could not find any "
+"results for your search. "
+"You can give it another "
+"try through the search "
+"form below."
+msgstr ""
+
+#: twentytwenty/index.php:101
+msgid "search again"
+msgstr ""
+
+#: twentytwenty/searchform.php:24
+#: twentytwenty/template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr ""
+
+#: twentytwenty/template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr ""
+
+#: twentytwenty/template-parts/content.php:36
+msgid "Continue reading"
+msgstr ""
+
+#: twentytwenty/template-parts/entry-author-bio.php:29
+msgid ""
+"View Archive <span aria-"
+"hidden=\"true\">&rarr;</"
+"span>"
+msgstr ""
+
+#: twentytwenty/template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr ""
+
+#: twentytwenty/template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr ""
+
+#: twentytwenty/template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr ""
+
+#: twentytwenty/template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr ""
+
+#: twentytwenty/template-parts/modal-menu.php:117
+msgid ""
+"Expanded Social links"
+msgstr ""
+
+#: twentytwenty/template-parts/modal-search.php:26
+msgid "Close search"
+msgstr ""
+
+#: twentytwenty/template-parts/navigation.php:25
+msgid "Post"
+msgstr ""
+
+#: twentytwenty/template-parts/pagination.php:21
+msgid ""
+"Newer <span class=\"nav-"
+"short\">Posts</span>"
+msgstr ""
+
+#: twentytwenty/template-parts/pagination.php:25
+msgid ""
+"Older <span class=\"nav-"
+"short\">Posts</span>"
+msgstr ""
+
+#: twentytwentyone/404.php:16
+#: twentytwentyone/template-parts/content/content-none.php:30
+msgid "Nothing here"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php:41
+msgid ""
+"To access the Dark Mode "
+"settings, select a light "
+"background color."
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php:42
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:189
+msgid ""
+"https://wordpress.org/"
+"support/article/twenty-"
+"twenty-one/#dark-mode-"
+"support"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php:43
+msgid ""
+"Learn more about Dark "
+"Mode."
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:80
+msgid ""
+"Display Site Title & "
+"Tagline"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:90
+msgid "Excerpt Settings"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:111
+msgid ""
+"On Archive Pages, posts "
+"show:"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-customize.php:143
+msgctxt ""
+"Customizer control"
+msgid "Background color"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:145
+msgid "Colors & Dark Mode"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:188
+#, php-format
+msgid ""
+"Dark Mode is a device "
+"setting. If a visitor to "
+"your site requests it, "
+"your site will be shown "
+"with a dark background "
+"and light text. <a href="
+"\"%s\">Learn more about "
+"Dark Mode.</a>"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:192
+msgid ""
+"Dark Mode can also be "
+"turned on and off with a "
+"button that you can find "
+"in the bottom right "
+"corner of the page."
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:199
+msgid "Dark Mode support"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:345
+#, php-format
+msgid "Dark Mode: %s"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:355
+msgid "Off"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:358
+msgid "On"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:406
+msgid ""
+"Twenty Twenty-One uses "
+"LocalStorage when Dark "
+"Mode support is enabled."
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:407
+msgid "Suggested text:"
+msgstr ""
+
+#: twentytwentyone/classes/class-twenty-twenty-one-dark-mode.php:408
+msgid ""
+"This website uses "
+"LocalStorage to save the "
+"setting when Dark Mode "
+"support is turned on or "
+"off.<br> LocalStorage is "
+"necessary for the "
+"setting to work and is "
+"only used when a user "
+"clicks on the Dark Mode "
+"button.<br> No data is "
+"saved in the database or "
+"transferred."
+msgstr ""
+
+#: twentytwentyone/comments.php:35
+msgid "1 comment"
+msgstr ""
+
+#: twentytwentyone/comments.php:40
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: twentytwentyone/comments.php:67
+msgid "Older comments"
+msgstr ""
+
+#: twentytwentyone/comments.php:71
+msgid "Newer comments"
+msgstr ""
+
+#: twentytwentyone/footer.php:24
+#: twentytwentyone/functions.php:77
+#: twentytwentyone/inc/starter-content.php:165
+msgid "Secondary menu"
+msgstr ""
+
+#: twentytwentyone/functions.php:76
+#: twentytwentyone/inc/starter-content.php:154
+#: twentytwentyone/template-parts/header/site-nav.php:13
+msgid "Primary menu"
+msgstr ""
+
+#: twentytwentyone/functions.php:150
+msgid "Extra small"
+msgstr ""
+
+#: twentytwentyone/functions.php:151
+msgctxt "Font size"
+msgid "XS"
+msgstr ""
+
+#: twentytwentyone/functions.php:157
+msgctxt "Font size"
+msgid "S"
+msgstr ""
+
+#: twentytwentyone/functions.php:163
+msgctxt "Font size"
+msgid "M"
+msgstr ""
+
+#: twentytwentyone/functions.php:169
+msgctxt "Font size"
+msgid "L"
+msgstr ""
+
+#: twentytwentyone/functions.php:174
+msgid "Extra large"
+msgstr ""
+
+#: twentytwentyone/functions.php:175
+msgctxt "Font size"
+msgid "XL"
+msgstr ""
+
+#: twentytwentyone/functions.php:181
+msgctxt "Font size"
+msgid "XXL"
+msgstr ""
+
+#: twentytwentyone/functions.php:186
+msgid "Gigantic"
+msgstr ""
+
+#: twentytwentyone/functions.php:187
+msgctxt "Font size"
+msgid "XXXL"
+msgstr ""
+
+#: twentytwentyone/functions.php:218
+msgid "Black"
+msgstr ""
+
+#: twentytwentyone/functions.php:223
+#: twentytwentyone/inc/block-styles.php:107
+msgid "Dark gray"
+msgstr ""
+
+#: twentytwentyone/functions.php:228
+msgid "Gray"
+msgstr ""
+
+#: twentytwentyone/functions.php:233
+msgid "Green"
+msgstr ""
+
+#: twentytwentyone/functions.php:243
+msgid "Purple"
+msgstr ""
+
+#: twentytwentyone/functions.php:248
+msgid "Red"
+msgstr ""
+
+#: twentytwentyone/functions.php:253
+msgid "Orange"
+msgstr ""
+
+#: twentytwentyone/functions.php:258
+msgid "Yellow"
+msgstr ""
+
+#: twentytwentyone/functions.php:274
+msgid "Purple to yellow"
+msgstr ""
+
+#: twentytwentyone/functions.php:279
+msgid "Yellow to purple"
+msgstr ""
+
+#: twentytwentyone/functions.php:284
+msgid "Green to yellow"
+msgstr ""
+
+#: twentytwentyone/functions.php:289
+msgid "Yellow to green"
+msgstr ""
+
+#: twentytwentyone/functions.php:294
+msgid "Red to yellow"
+msgstr ""
+
+#: twentytwentyone/functions.php:299
+msgid "Yellow to red"
+msgstr ""
+
+#: twentytwentyone/functions.php:304
+msgid "Purple to red"
+msgstr ""
+
+#: twentytwentyone/functions.php:309
+msgid "Red to purple"
+msgstr ""
+
+#: twentytwentyone/image.php:46
+#: twentytwentyone/template-parts/content/content-page.php:36
+#: twentytwentyone/template-parts/content/content-single.php:30
+#: twentytwentyone/template-parts/content/content.php:36
+msgid "Page %"
+msgstr ""
+
+#: twentytwentyone/image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr ""
+
+#: twentytwentyone/image.php:68
+#: twentytwentyone/image.php:93
+#: twentytwentyone/inc/template-tags.php:92
+#: twentytwentyone/inc/template-tags.php:135
+#: twentytwentyone/template-parts/content/content-page.php:48
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: twentytwentyone/inc/back-compat.php:42
+#: twentytwentyone/inc/back-compat.php:61
+#: twentytwentyone/inc/back-compat.php:86
+#, php-format
+msgid ""
+"This theme requires "
+"WordPress 5.3 or newer. "
+"You are running version "
+"%s. Please upgrade."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:20
+msgid "Twenty Twenty-One"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:33
+msgid "Large text"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:36
+msgid ""
+"A new portfolio default "
+"theme for WordPress"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:44
+msgid "Links area"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:47
+msgctxt ""
+"Block pattern description"
+msgid ""
+"A huge text followed by "
+"social networks and "
+"email address links."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:48
+msgid ""
+"Let&#8217;s Connect."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:48
+msgid "Twitter"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:48
+msgid "Instagram"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:48
+msgid "Dribbble"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:56
+msgid ""
+"Media and text article "
+"title"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:59
+msgctxt ""
+"Block pattern description"
+msgid ""
+"A Media & Text block "
+"with a big image on the "
+"left and a heading on "
+"the right. The heading "
+"is followed by a "
+"separator and a "
+"description paragraph."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:60
+msgid ""
+"&#8220;Playing in the "
+"Sand&#8221; by Berthe "
+"Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:60
+msgid "Playing in the Sand"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:60
+msgid ""
+"Berthe "
+"Morisot<br>(French, "
+"1841-1895)"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:68
+msgid "Overlapping images"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:71
+msgctxt ""
+"Block pattern description"
+msgid ""
+"Three images inside an "
+"overlapping columns "
+"block."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:72
+#: twentytwentyone/inc/block-patterns.php:107
+#: twentytwentyone/inc/starter-content.php:43
+msgid ""
+"&#8220;Roses "
+"Tremieres&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:72
+#: twentytwentyone/inc/block-patterns.php:107
+#: twentytwentyone/inc/starter-content.php:51
+msgid ""
+"&#8220;In the Bois de "
+"Boulogne&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:72
+#: twentytwentyone/inc/block-patterns.php:107
+#: twentytwentyone/inc/starter-content.php:61
+msgid ""
+"&#8220;Young Woman in "
+"Mauve&#8221; by Berthe "
+"Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:80
+msgid "Two images showcase"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:83
+msgctxt ""
+"Block pattern description"
+msgid ""
+"A media & text block "
+"with a big image on the "
+"left and a smaller one "
+"with bordered frame on "
+"the right."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:84
+msgid ""
+"&#8220;Daffodils&#8221; "
+"by Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:84
+msgid ""
+"&#8220;Self "
+"portrait&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:92
+msgid ""
+"Overlapping images and "
+"text"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:95
+msgctxt ""
+"Block pattern description"
+msgid ""
+"An overlapping columns "
+"block with two images "
+"and a text description."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:96
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"&#8220;The Garden at "
+"Bougival&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:96
+msgid ""
+"Beautiful gardens "
+"painted by Berthe "
+"Morisot in the late 1800s"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:96
+msgid ""
+"&#8220;Villa with Orange "
+"Trees, Nice&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:104
+msgid "Portfolio list"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:106
+msgctxt ""
+"Block pattern description"
+msgid ""
+"A list of projects with "
+"thumbnail images."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid "Roses Tremieres"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"Villa with Orange Trees, "
+"Nice"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"In the Bois de Boulogne"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"The Garden at Bougival"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"Young Woman in Mauve"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid "Reading"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:107
+msgid ""
+"&#8220;Reading&#8221; by "
+"Berthe Morisot"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:114
+msgid "Contact information"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:116
+msgctxt ""
+"Block pattern description"
+msgid ""
+"A block with 3 columns "
+"that display contact "
+"information and social "
+"media links."
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:117
+msgctxt ""
+"Block pattern sample "
+"content"
+msgid "example@example.com"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:117
+msgctxt ""
+"Block pattern sample "
+"content"
+msgid "123-456-7890"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:117
+msgctxt ""
+"Block pattern sample "
+"content"
+msgid "123 Main Street"
+msgstr ""
+
+#: twentytwentyone/inc/block-patterns.php:117
+msgctxt ""
+"Block pattern sample "
+"content"
+msgid ""
+"Cambridge, MA, 02139"
+msgstr ""
+
+#: twentytwentyone/inc/block-styles.php:26
+msgid "Overlap"
+msgstr ""
+
+#: twentytwentyone/inc/block-styles.php:35
+#: twentytwentyone/inc/block-styles.php:44
+#: twentytwentyone/inc/block-styles.php:53
+#: twentytwentyone/inc/block-styles.php:80
+#: twentytwentyone/inc/block-styles.php:89
+msgid "Borders"
+msgstr ""
+
+#: twentytwentyone/inc/block-styles.php:62
+msgid "Frame"
+msgstr ""
+
+#: twentytwentyone/inc/block-styles.php:71
+msgid "Dividers"
+msgstr ""
+
+#: twentytwentyone/inc/block-styles.php:98
+msgid "Thick"
+msgstr ""
+
+#: twentytwentyone/inc/menu-functions.php:35
+msgid "Open menu"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:30
+#: twentytwentyone/inc/starter-content.php:33
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Create your website with "
+"blocks"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:73
+msgctxt ""
+"Theme starter content"
+msgid "Add block patterns"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:77
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Block patterns are pre-"
+"designed groups of "
+"blocks. To add one, "
+"select the Add Block "
+"button [+] in the "
+"toolbar at the top of "
+"the editor. Switch to "
+"the Patterns tab "
+"underneath the search "
+"bar, and choose a "
+"pattern."
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:83
+msgctxt ""
+"Theme starter content"
+msgid "Frame your images"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:87
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Twenty Twenty-One "
+"includes stylish borders "
+"for your content. With "
+"an Image block selected, "
+"open the \"Styles\" "
+"panel within the Editor "
+"sidebar. Select the "
+"\"Frame\" block style to "
+"activate it."
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:93
+msgctxt ""
+"Theme starter content"
+msgid "Overlap columns"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:97
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Twenty Twenty-One also "
+"includes an overlap "
+"style for column blocks. "
+"With a Columns block "
+"selected, open the "
+"\"Styles\" panel within "
+"the Editor sidebar. "
+"Choose the \"Overlap\" "
+"block style to try it "
+"out."
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:112
+msgctxt ""
+"Theme starter content"
+msgid "Need help?"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:122
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Read the Theme "
+"Documentation"
+msgstr ""
+
+#: twentytwentyone/inc/starter-content.php:128
+msgctxt ""
+"Theme starter content"
+msgid ""
+"Check out the Support "
+"Forums"
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:132
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:174
+msgctxt ""
+"Added to posts and pages "
+"that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:397
+msgid ""
+"This content is password "
+"protected. Please enter "
+"a password to view."
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:399
+msgctxt ""
+"Post password form"
+msgid "Password"
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:399
+msgctxt ""
+"Post password form"
+msgid "Submit"
+msgstr ""
+
+#: twentytwentyone/inc/template-functions.php:399
+msgctxt ""
+"Post password form"
+msgid "Enter"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:29
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:77
+msgctxt ""
+"Label for sticky posts"
+msgid "Featured post"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:108
+#: twentytwentyone/inc/template-tags.php:152
+#, php-format
+msgid "Categorized as %s"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:118
+#: twentytwentyone/inc/template-tags.php:162
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:234
+msgid ""
+"Newer <span class=\"nav-"
+"short\">posts</span>"
+msgstr ""
+
+#: twentytwentyone/inc/template-tags.php:245
+msgid ""
+"Older <span class=\"nav-"
+"short\">posts</span>"
+msgstr ""
+
+#: twentytwentyone/search.php:21
+#: twentytwentyone/template-parts/content/content-none.php:22
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: twentytwentyone/search.php:34
+#, php-format
+msgid ""
+"We found %d result for "
+"your search."
+msgid_plural ""
+"We found %d results for "
+"your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: twentytwentyone/searchform.php:24
+msgid "Search&hellip;"
+msgstr ""
+
+#: twentytwentyone/single.php:39
+msgid "Next post"
+msgstr ""
+
+#: twentytwentyone/single.php:40
+msgid "Previous post"
+msgstr ""
+
+#: twentytwentyone/template-parts/header/site-nav.php:19
+msgid "Close"
+msgstr ""
+
+#: twentytwentyone/template-parts/post/author-bio.php:20
+#, php-format
+msgid ""
+"View all of %2$s's posts."
+msgstr ""
