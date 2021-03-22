@@ -12,21 +12,21 @@
     <header>
         <h1><?php the_title(); ?></h1>
         <div class="meta">
-            <p><?php esc_html_e( 'Published by', 'fancy-lab' ); ?> <?php the_author_posts_link(); ?> <?php esc_html_e( 'on', 'fancy-lab' ); ?> <?php echo esc_html( get_the_date() ); ?>
+            <p><?php esc_html_e( 'Published by', 'lamateria' ); ?> <?php the_author_posts_link(); ?> <?php esc_html_e( 'on', 'lamateria' ); ?> <?php echo esc_html( get_the_date() ); ?>
             <br />
             <?php if( has_category() ): ?>
-                <?php esc_html_e( 'Categories', 'fancy-lab' ); ?>: <span><?php the_category( ' ' ); ?></span>
+                <?php esc_html_e( 'Categories', 'lamateria' ); ?>: <span><?php the_category( ' ' ); ?></span>
             <?php endif; ?>
             <br />
             <?php if( has_tag() ): ?>
-                <?php esc_html_e( 'Tags', 'fancy-lab' ); ?>: <span><?php the_tags( '', ', ' ); ?></span>
+                <?php esc_html_e( 'Tags', 'lamateria' ); ?>: <span><?php the_tags( '', ', ' ); ?></span>
             <?php endif; ?>
             </p>                           
         </div>        
         <div class="post-thumbnail">
             <?php 
             if( has_post_thumbnail() ): 
-                the_post_thumbnail( 'fancy-lab-blog', array( 'class' => 'img-fluid') );
+                the_post_thumbnail( 'lamateria-blog', array( 'class' => 'img-fluid') );
             endif;
             ?>
         </div>
@@ -35,7 +35,7 @@
     	<?php 
     	wp_link_pages(
     		array(
-    			'before'	=> '<p class="inner-pagination">' . esc_html__( 'Pages', 'fancy-lab' ),
+    			'before'	=> '<p class="inner-pagination">' . esc_html__( 'Pages', 'lamateria' ),
     			'after'		=> '</p>',
     		)
     	);

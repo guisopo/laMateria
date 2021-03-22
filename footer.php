@@ -39,7 +39,7 @@ $footer_menu_args = array(
         <div class="container">
           <div class="row">
             <div class="copyright-text col-12 col-md-6">
-              <?php echo get_theme_mod( 'set_copyright', 'Copyright '. date("Y") .' - All rights reserved' ) ?>
+              <?php echo get_theme_mod( 'set_copyright', __( 'Copyright '. date("Y") .' - All rights reserved', 'lamateria' ) ); ?>
             </div>
             <nav class="footer-menu col-12 col-md-6 text-left text-md-right">
               <?php 
