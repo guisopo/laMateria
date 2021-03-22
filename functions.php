@@ -109,7 +109,7 @@ function lamateria_woocommerce_header_add_to_cart_fragment( $fragments ) {
 add_action( 'widgets_init', 'lamateria_sidebar' );
 
 function lamateria_sidebar() {
-  $args = array(
+  $args_sidebar_1 = array(
     'name'          => 'Lamateria Sidebar',
     'id'            => 'lamateria-sidebar-1',
     'description'   => 'Drag and drop your widgets here.',
@@ -119,5 +119,16 @@ function lamateria_sidebar() {
     'after_title'  => '</h4>'
   );
 
-  register_sidebar($args);
+  $args_sidebar_2 = array(
+    'name'          => 'Lamateria Sidebar',
+    'id'            => 'lamateria-sidebar-shop',
+    'description'   => 'Drag and drop your Woocommerce widgets here.',
+    'before_widget' => '<div id="%1$s" class="widget %2$s widget-wrapper>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'  => '</h4>'
+  );
+
+  register_sidebar($args_sidebar_1);
+  register_sidebar($args_sidebar_2);
 }
