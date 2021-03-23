@@ -41,8 +41,8 @@ get_header();
                       </div>
                       <div class="slider-description">
                         <div class="subtitle"><?php the_content(); ?></div>
-                        <a class="link" href="<?php echo $slider_button_url[$j]; ?>">
-                          <?php echo $slider_button_text[$j]; ?>
+                        <a class="link" href="<?php echo esc_url( $slider_button_url[$j] ); ?>">
+                          <?php echo esc_html( $slider_button_text[$j] ); ?>
                         </a>
                       </div>
                     </div>
@@ -71,8 +71,8 @@ get_header();
       <section class="popular-products">
         <div class="container">
           <div class="section-title">
-          <h2><?php echo get_theme_mod( 'set_popular_title' ); ?></h2>
-            <?php echo do_shortcode( '[products limit = " ' . $popular_limit . ' " columns=" ' . $popular_columns . ' " orderby="popularity"]' ); ?>
+          <h2><?php echo esc_html( get_theme_mod( 'set_popular_title' ) ); ?></h2>
+            <?php echo do_shortcode( '[products limit = " ' . esc_attr( $popular_limit ) . ' " columns=" ' . esc_attr( $popular_columns ) . ' " orderby="popularity"]' ); ?>
           </div>
         </div>
       </section>
@@ -80,8 +80,8 @@ get_header();
       <section class="popular-products">
         <div class="container">
           <div class="section-title">
-            <h2><?php echo get_theme_mod( 'set_new_arrivals_title' ); ?></h2>
-            <?php echo do_shortcode( '[products limit = " ' . $arrival_limit . ' " columns=" ' . $arrival_columns . ' " orderby="date"]' ); ?>
+            <h2><?php echo esc_html( get_theme_mod( 'set_new_arrivals_title' ) ); ?></h2>
+            <?php echo do_shortcode( '[products limit = " ' . esc_attr( $arrival_limit ) . ' " columns=" ' . esc_attr( $arrival_columns ) . ' " orderby="date"]' ); ?>
           </div>
         </div>
       </section>
@@ -100,7 +100,7 @@ get_header();
         <section class="deal-of-the-week">
           <div class="container">
             <div class="section-title">
-              <h2><?php echo get_theme_mod( 'set_deal_title' ); ?></h2>
+              <h2><?php echo esc_html( get_theme_mod( 'set_deal_title' ) ); ?></h2>
             </div>
             <div class="row d-flex align-items-center">
                 <div class="deal-img col-md-6 col-12 ml-auto text-center">
@@ -109,31 +109,31 @@ get_header();
                 <div class="deal-desc col-md-6 col-12 mr-auto text-center">
                   <?php if( !empty( $sale ) ) : ?>
                     <span class="discount">
-                      <?php echo $discount_percentage . _e( '% OFF' ); ?>
+                      <?php echo esc_html( $discount_percentage ) . esc_html_e( '% OFF' ); ?>
                     </span>
                   <?php endif; ?>
                   <h3>
-                    <a href="<?php echo get_permalink( $deal); ?>">
-                      <?php echo get_the_title( $deal ); ?>
+                    <a href="<?php echo esc_url( get_permalink( $deal) ); ?>">
+                      <?php echo esc_html( get_the_title( $deal ) ); ?>
                     </a>
                   </h3>
-                  <p><?php echo get_the_excerpt( $deal ); ?></p>
+                  <p><?php echo esc_html( get_the_excerpt( $deal ) ); ?></p>
                   <div class="prices">
                     <div class="regular">
                       <?php 
-                        echo $currency; 
-                        echo $regular; 
+                        echo esc_html( $currency ); 
+                        echo esc_html( $regular ); 
                       ?>
                     </div>
                     <?php if( !empty( $sale ) ) : ?>
                       <div class="sale">
                         <?php 
-                            echo $currency; 
-                            echo $sale; 
+                            echo esc_html( $currency ); 
+                            echo esc_html( $sale ); 
                             ?>
                       </div>
                     <?php endif; ?>
-                    <a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php _e( 'Add to cart', 'lamateria' ); ?></a>
+                    <a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php esc_html_e( 'Add to cart', 'lamateria' ); ?></a>
                   </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@ get_header();
 
             else:
               ?>
-                <p><?php _e( 'Nothing to display.', 'lamateria' ); ?></p>
+                <p><?php esc_html_e( 'Nothing to display.', 'lamateria' ); ?></p>
               <?php
             endif;
           ?>

@@ -14,7 +14,7 @@
   <main>
     <div class="container">
       <div class="row">
-        <h1><?php _e( 'Search results for', 'lamateria' ); ?>: <?php echo get_search_query(); ?></h1>
+        <h1><?php esc_html_e( 'Search results for', 'lamateria' ); ?>: <?php echo get_search_query(); ?></h1>
         <?php 
           get_search_form();
           // I there are any post
@@ -27,13 +27,13 @@
             endwhile;
 
             the_posts_pagination( array(
-                'prev_text' => __( 'Previous' , 'lamateria'),
-                'next_text' => __( 'Next' , 'lamateria')
+                'prev_text' => esc_html__( 'Previous' , 'lamateria'),
+                'next_text' => esc_html__( 'Next' , 'lamateria')
             ) );
 
           else:
             ?>
-              <p><?php _e( 'There are no results for your query.', 'lamateria' ); ?></p>
+              <p><?php esc_html_e( 'There are no results for your query.', 'lamateria' ); ?></p>
             <?php
           endif;
         ?>

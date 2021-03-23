@@ -31,13 +31,13 @@
               endwhile;
 
               the_posts_pagination( array(
-                'prev_text' => __( 'Previous' , 'lamateria'),
-                'next_text' => __( 'Next' , 'lamateria')
+                'prev_text' => esc_html__( 'Previous' , 'lamateria'),
+                'next_text' => esc_html__( 'Next' , 'lamateria')
               ) );
 
             else:
               ?>
-                <p><?php _e( 'Nothing to display.', 'lamateria' ); ?></p>
+                <p><?php esc_html_e( 'Nothing to display.', 'lamateria' ); ?></p>
               <?php
             endif;
           ?>

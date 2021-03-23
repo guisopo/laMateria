@@ -14,13 +14,15 @@
     <a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a>
   </h2>
   <div class="meta">
-  <p><?php __e( 'Published by', 'lamateria'); ?> <?php echo get_the_author_posts_link(); ?> <?php __e( 'on', 'lamateria' ); ?> <?php echo get_the_date(); ?></p>
-      <?php if( has_category() ) : ?>
-        <p><?php __e( 'Categories ', 'lamateria' ); ?>: <span><?php the_category( ',' ); ?></span></p>
-      <?php endif; ?>
-      <?php if( has_tag() ) : ?>
-        <p><?php __e( 'Tags', 'lamateria' ); ?>: <span><?php the_tags('', ','); ?></span></p>
-      <?php endif; ?>
+    <p><?php esc_html_e( 'Published by', 'lamateria'); ?> <?php echo get_the_author_posts_link(); ?> <?php esc_html_e( 'on', 'lamateria' ); ?> <?php echo esc_html( get_the_date() ); ?></p>
+    
+    <?php if( has_category() ) : ?>
+      <p><?php esc_html_e( 'Categories ', 'lamateria' ); ?>: <span><?php the_category( ',' ); ?></span></p>
+    <?php endif; ?>
+    
+    <?php if( has_tag() ) : ?>
+      <p><?php esc_html_e( 'Tags', 'lamateria' ); ?>: <span><?php the_tags('', ','); ?></span></p>
+    <?php endif; ?>
   </div>
   <div class="post-thumbnail">
     <?php 
