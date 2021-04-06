@@ -1,4 +1,4 @@
-# Walter Wordpress Theme 👩🏼‍🎤
+# La Materia Wordpress Theme 🛍
 A responsive custom Woocommerce theme.
 
 ## Copyright and License
